@@ -14,9 +14,9 @@
 
 ---
 
-A drawing sheet is a document that explains itself: dimensions, leaders, part
-numbers, a title block. This homepage borrows that grammar instead of the usual
-hero-and-cards layout — the content is annotated rather than decorated.
+I wanted to see whether a page can explain itself the way a drawing does: dimensions,
+leader lines, a title block, the construction grid left visible. So the content is
+annotated instead of decorated.
 
 ## What is in here
 
@@ -38,12 +38,12 @@ python3 -m http.server 8000
 
 ## What it demonstrates
 
-- **Annotation as layout.** Labels sit on leader lines; the grid is visible because
-  a drawing shows its own construction.
-- **`IntersectionObserver` reveals** that fire once and never re-run — the page
-  settles instead of animating forever.
-- **Pointer position as a variable**, so the sheet reacts to the cursor without a
-  single animation frame running when nobody is looking.
+- **Annotation as layout.** Labels sit on leader lines and the grid stays visible, so
+  you can see how the page was put together.
+- **`IntersectionObserver` reveals** that fire once and never re-run. It settles
+  instead of animating forever.
+- **Pointer position as a CSS variable**, so the sheet reacts to the cursor without an
+  animation frame running when nobody is looking.
 
 ## Related
 
